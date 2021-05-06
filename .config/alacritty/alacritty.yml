@@ -1,0 +1,12 @@
+# Font
+font:
+  normal:
+    family: Fira Code
+    style: Retina
+  size: 10.0
+
+# Opacity
+background_opacity: 1
+
+import:
+        - themes/dracula.yml
