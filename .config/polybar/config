@@ -1,14 +1,16 @@
 [bar/init]
-font-0 = Font Code Retina:pixelsize=12;2:style:Retina
+font-0 = Font Code Retina:pixelsize=10;2:style:Retina
+font-1 = NotoColorEmoji:scale=13:size=10;2
 background = ${colors.background}
 module-margin = 1
 bottom = true
 modules-center = i3
 modules-right = date pulseaudio nm-launcher battery
 modules-left = filesystem
+height = 14
 
 [colors]
-background = #1A5C5B
+background = #2F1A5C5B
 
 [module/date]
 type = internal/date
@@ -57,8 +59,8 @@ spacing = 4
 
 [module/nm-launcher]
 type = custom/text
-content = ∴
-click-left = nm-connection-editor
+content = 🛰️
+click-left = alacritty -e networkmanager_dmenu
 
 [module/battery]
 type = internal/battery
@@ -202,3 +204,4 @@ label-focused-underline = #fba922
 label-focused-padding = 1
 label-unfocused = %index%
 label-unfocused-padding = 1
+
