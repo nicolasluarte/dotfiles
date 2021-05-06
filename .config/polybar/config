@@ -60,7 +60,7 @@ spacing = 4
 [module/nm-launcher]
 type = custom/text
 content = 🛰️
-click-left = alacritty -e networkmanager_dmenu
+click-left = alacritty -e networkmanager_dmenu &
 
 [module/battery]
 type = internal/battery
