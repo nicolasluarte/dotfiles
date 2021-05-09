@@ -7,10 +7,10 @@ bottom = true
 modules-center = i3
 modules-right = date pulseaudio nm-launcher battery
 modules-left = filesystem
-height = 14
+height = 18
 
 [colors]
-background = #2F1A5C5B
+background = #F91A5C5B
 
 [module/date]
 type = internal/date
