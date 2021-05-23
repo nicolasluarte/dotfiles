@@ -27,6 +27,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'karoliskoncevicius/vim-sendtowindow'
 Plug 'easymotion/vim-easymotion'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " source configurations
@@ -42,6 +43,7 @@ source $HOME/.config/nvim/plug-config/nvimr.vim
 source $HOME/.config/nvim/plug-config/sendtowindow.vim
 source $HOME/.config/nvim/plug-config/easymotion.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/plug-config/nerdtree.vim
 
 " movements
 nnoremap <C-J> <C-W><C-J>

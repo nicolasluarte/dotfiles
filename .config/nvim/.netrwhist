@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/nicoluarte/.R'
+let g:netrw_dirhist_5='/home/nicoluarte/nbolab_FED/Arduino/FED030818'
+let g:netrw_dirhist_4='/home/nicoluarte/nbolab_FED/Arduino'
+let g:netrw_dirhist_3='/home/nicoluarte/nbolab_FED'
+let g:netrw_dirhist_2='/home/nicoluarte'
+let g:netrw_dirhist_1='/home/nicoluarte/nbolab_EXPERIMENTS'
+let g:netrw_dirhist_0='/home/nicoluarte/nbolab_EXPERIMENTS/pi0'
+let g:netrw_dirhist_9='/home/nicoluarte/nbolab_EXPERIMENTS/pi0/preview_cam'
+let g:netrw_dirhist_8='/home/nicoluarte/nbolab_EXPERIMENTS/pi0'
+let g:netrw_dirhist_7='/home/nicoluarte/nbolab_EXPERIMENTS/pi0/cam_test'
